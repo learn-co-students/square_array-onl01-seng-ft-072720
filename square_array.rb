@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  empty = []
+array.each {|element| empty << element **2 }
+empty
 end
